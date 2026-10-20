@@ -81,5 +81,6 @@ def check(clips, consents, persons, order):
         out[cl["id"]] = dict(decision=decision, reasons=[dict(code=k, who=w, why=CITE[k]) for k, w in F])
     delivered = [i for i, r in out.items() if r["decision"] == "DELIVER"]
     manifest = dict(order_uses=sorted(order["uses"]), clips_delivered=len(delivered), clips_held=len(out) - len(delivered),
-                    license_scope_covered=sorted(order["uses"]), revocations_to_notify=notify)
+                    license_scope_covered=sorted(order["uses"]),
+                    revocations_to_notify=[n for n in notify if n["clip"] in delivered])   # only clips the buyer received
     return out, manifest

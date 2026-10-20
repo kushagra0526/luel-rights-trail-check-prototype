@@ -1,0 +1,67 @@
+{
+ "set": "heldout",
+ "results": {
+  "consent_id_listed": {
+   "clean": 1376,
+   "clean_held": 0,
+   "bad": 1814,
+   "bad_delivered": 1814
+  },
+  "this": {
+   "clean": 1376,
+   "clean_held": 0,
+   "bad": 1814,
+   "bad_delivered": 0
+  }
+ },
+ "per_type": {
+  "TITLE_CONFLICT": {
+   "n": 380,
+   "held": 380,
+   "right_reason": 380
+  },
+  "MINOR": {
+   "n": 165,
+   "held": 165,
+   "right_reason": 165
+  },
+  "SCOPE": {
+   "n": 185,
+   "held": 185,
+   "right_reason": 185
+  },
+  "ALL_PARTY": {
+   "n": 173,
+   "held": 173,
+   "right_reason": 173
+  },
+  "HEALTH": {
+   "n": 198,
+   "held": 198,
+   "right_reason": 198
+  },
+  "MISSING_PARTY": {
+   "n": 189,
+   "held": 189,
+   "right_reason": 189
+  },
+  "CONSENT_AFTER_RECORDING": {
+   "n": 162,
+   "held": 162,
+   "right_reason": 162
+  },
+  "BIPA": {
+   "n": 182,
+   "held": 182,
+   "right_reason": 182
+  },
+  "REVOKED": {
+   "n": 180,
+   "held": 180,
+   "right_reason": 180
+  }
+ },
+ "revocations_to_notify": 89,
+ "misses": [],
+ "false_holds": []
+}
