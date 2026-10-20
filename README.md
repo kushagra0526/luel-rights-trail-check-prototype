@@ -14,6 +14,8 @@ Luel sells "rights-cleared multimodal training data", and every dataset ships wi
 
 A "consent id on file" check sees none of that. A dataset's licence is only as wide as the narrowest consent in it.
 
+![demo](docs/demo.jpg)
+
 ## What it does (`rights/`, stdlib)
 `check(clips, consents, persons, order)` checks every person in every clip against the buyer's uses and delivery date. Each clip gets **DELIVER / NEEDS_CONSENT / EXCLUDE**, with reasons that name their source:
 
