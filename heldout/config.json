@@ -1,0 +1,7 @@
+{
+ "note": "Frozen before the first run. A different order and network: patient-doctor style health conversations (health share 40%), recordings in India and Germany plus an Illinois-heavy US mix, more two-person conversations and faces, a buyer who also wants voice synthesis and redistribution, different dates, new seeds.",
+ "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+ "cfg": {"locations": ["IN", "DE", "IL", "CA", "TX", "NY", "MA", "WA"], "loc_w": [4, 2, 3, 1, 1, 1, 1, 1],
+         "health_p": 0.4, "conv_p": 0.85, "face_p": 0.3, "uses": ["research", "commercial_training", "voice_synthesis", "redistribution"],
+         "delivery": "2027-01-15", "start": "2026-06-01", "n_clips": 300}
+}
